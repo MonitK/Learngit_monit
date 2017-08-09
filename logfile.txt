@@ -1,0 +1,243 @@
+mkapoor@mkapoor-ltp MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/mkapoor/.git/
+
+mkapoor@mkapoor-ltp MINGW64 ~ (master)
+$ gitclone https://github.com/MonitK/Learngit_monit
+bash: gitclone: command not found
+
+mkapoor@mkapoor-ltp MINGW64 ~ (master)
+$ git clone https://github.com/MonitK/Learngit_monit
+Cloning into 'Learngit_monit'...
+warning: You appear to have cloned an empty repository.
+
+mkapoor@mkapoor-ltp MINGW64 ~ (master)
+$ cd ..
+
+mkapoor@mkapoor-ltp MINGW64 /c/Users
+$ cd Learngit_monit
+bash: cd: Learngit_monit: No such file or directory
+
+mkapoor@mkapoor-ltp MINGW64 /c/Users
+$ cd MonitK
+bash: cd: MonitK: No such file or directory
+
+mkapoor@mkapoor-ltp MINGW64 /c/Users
+$ dir
+All\ Users  Default  Default\ User  desktop.ini  hp  mkapoor  Public
+
+mkapoor@mkapoor-ltp MINGW64 /c/Users
+$ cd mkapoor
+
+mkapoor@mkapoor-ltp MINGW64 ~ (master)
+$ dir
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+IntelGraphicsProfiles
+Learngit_monit
+Links
+Local\ Settings
+Music
+My\ Documents
+NetHood
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+NTUSER.DAT{77a2c7ed-26f0-11e5-80da-e41d2d741090}.TM.blf
+NTUSER.DAT{77a2c7ed-26f0-11e5-80da-e41d2d741090}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{77a2c7ed-26f0-11e5-80da-e41d2d741090}.TMContainer00000000000000000002.regtrans-ms
+ntuser.ini
+ntuser.pol
+ODBA
+OneDrive
+OneDrive\ -\ Laureate\ Education\ -\ APAC
+OneDrive\ -\ Laureate\ Education\ -\ APAC\ 1
+Pictures
+PrintHood
+Recent
+Roaming
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Tracing
+Videos
+
+mkapoor@mkapoor-ltp MINGW64 ~ (master)
+$ cd Learngit_monit/
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ dir
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ type helloworld.c
+bash: type: helloworld.c: not found
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ clear
+
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hello.c.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ edit hello.c
+bash: edit: command not found
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git add hello.c.txt
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   hello.c.txt
+
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git commit -m "i am sharing this file for testing, rajiv we shall crank it up"
+[master (root-commit) aa9de1f] i am sharing this file for testing, rajiv we shall crank it up
+ 1 file changed, 6 insertions(+)
+ create mode 100644 hello.c.txt
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git config -l
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.process=git-lfs filter-process
+credential.helper=manager
+user.name=MonitK
+user.email=30857347+MonitK@users.noreply.github.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/MonitK/Learngit_monit
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 326 bytes | 326.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MonitK/Learngit_monit
+ * [new branch]      master -> master
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ gits status
+bash: gits: command not found
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   hello.c.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git diff hello.c.txt
+diff --git a/hello.c.txt b/hello.c.txt
+index cc41af8..67814f3 100644
+--- a/hello.c.txt
++++ b/hello.c.txt
+@@ -3,4 +3,6 @@ int main()
+ {
+ printf(""hello Monit");
+ return 0;
+-}
+\ No newline at end of file
++}
++
++// comments inserted
+\ No newline at end of file
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git add hello.c.txt
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git commit -m "i am sharing this file for testing, rajiv we shall crank it up with comments"
+[master 881764f] i am sharing this file for testing, rajiv we shall crank it up with comments
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 384 bytes | 384.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/MonitK/Learngit_monit
+   aa9de1f..881764f  master -> master
+
+mkapoor@mkapoor-ltp MINGW64 ~/Learngit_monit (master)
+$
+
+
+
+
+
+
+
+
