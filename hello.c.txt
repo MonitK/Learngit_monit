@@ -1,7 +1,11 @@
 #include<stdio.h>
 int main()
 {
-printf(""hello Monit");
+<<<<<<< HEAD
+printf(""hello Monit, pankaj, sunil----> pooling heroes");
+=======
+printf(""hello Monit,pankaj");
+>>>>>>> ec4e0a30205c5d201c7cf3787d57510eee6cf6fe
 return 0;
 }
 
